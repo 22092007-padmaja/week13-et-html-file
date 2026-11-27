@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Week13</title>
+</head>
+<body>
+    <h1>Heading Tags</h1>
+    <h1>Main Heading</h1>
+    <h2>Subheading</h2>
+    <h3>Third Level Heading</h3>
+    <h4>Fourth Level Heading</h4>
+    <h5>Fifth Level Heading</h5>
+    <h6>Sixth Level Heading</h6>
+
+    <h1>Paragraph Tag:</h1>
+    <p>HTML is used to structure webpages.</p>
+
+
+    <h1>Anchor and image tags</h1>
+    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Open Google</a>Visit Google</a>
+    <img src="horse_img.jpg" alt="Horse" height="200px" width="250px">
+
+
+    <h1>Types of Texts</h1>
+    <br>
+    <b>Bold Text</b>
+    <br>
+    <i>Italic Text</i>
+    <br>
+    <u>Underlined Text</u>
+    <br>
+    <strong>Important Text</strong>
+    <br>
+    <em>Emphasized Text</em>
+    <br>
+    <p>Normal Text</p>
+    <br>
+    <small>Small Text</small>
+
+    
+
+    <h1>Using Horizontal break tag</h1>
+
+    <p>Introduction to HTML</p>
+    <hr>
+    <p>Introduction to CSS</p>
+
+    
+
+    <h1>Subscript and Superscript</h1>
+
+    <p>Water: H<sub>2</sub><sub>O</sub></p>
+    <p>Square of x: x<sup>2</sup></p>
+
+    
+
+    <h1>To count the spaces</h1>
+
+    <pre>
+        This is a sample
+             preformatted 
+
+             text... ....
+    </pre>
+
+    
+
+    <h1>Section, article and aside tags</h1>
+
+    <section>
+        <h2>Our Services</h2>
+        <p>We provide web development services</p>
+    </section>
+
+    <article>
+        <h2>Introduction to Python</h2>
+        <p>Python is a programming language.</p>
+    </article>
+
+    <aside>
+        <h3>Related Topics</h3>
+        <p>Learn CSS and JavaScript</p>
+    </aside>
+
+    
+
+    <h1>Clickable image</h1>
+    <a href="https://www.google.com">
+        <img src="https://www.britannica.com/technology/computer" alt="Google" height="150" width="200">
+    </a>
+
+    
+
+    <h1>Division Tag</h1>
+    <div>
+        <h2>Student Information</h2>
+        <p>Name: Arjun</p>
+        <p>Department: Computer Science</p>
+    </div>
+
+    
+
+    <h1>Span Tag</h1>
+    <p>
+        Welcome to
+        <span style="color: blue;">HTML</span>
+        learning...
+    </p>
+
+    
+
+    <h1>Lists</h1>
+    <h3>Unordered list:</h3>
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Orange</li>
+    </ul>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+    <h3>Description List</h3>
+    <dl>
+        <dt>HTML:</dt>
+        <dd>Structures a webpage</dd>
+
+        <dt>CSS:</dt>
+        <dd>Styles a webpage</dd>
+    </dl>
+    <h3>Nested Lists</h3>
+        <ul>
+            <li>Programming Languages
+        <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C++</li>
+        </ul>
+    </li>
+    <li>Web Technologies</li>
+    </ul>
+
+    
+
+    <h1>Basic HTML Table</h1>
+    <table border="1">
+        <tr><th>Name</th><th></tr>
+        <tr><td>Arjun</td></tr>
+        <tr><td>Nitish</td></tr>
+        <tr><td>Padmaja</td></tr>
+    </table>
+
+
+
+    <table>
+        <caption>Student Info</caption>
+
+        <thead>
+            <tr><th>Name</th><th>Roll No</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Arjun</td></tr>
+            <tr><td>Nitish</td></tr>
+            <tr><td>Padmaja</td></tr>
+        </tbody>
+    </table>
+    <h3>Colspan Attribute</h3>
+    <table border="1">
+        <tr>
+            <th colspan="2">Student Data</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+        </tr>
+        <tr>
+            <td>Arjun</td>
+            <td>250200111</td>
+        </tr>
+        </table>
+
+    <h3>Rowspan Attribute</h3>
+    <table border="1">
+        <tr><th rowspan="2">Computer Science</th><td>HTML</td></tr>
+        <tr><td>CSS</td></tr>
+    </table>
+
+    
+
+    <form action="/submit" method="post">
+        Form elements go here.
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your name">
+    </form>
+
+    <br>
+
+    <p>Select your class:</p>
+
+    <label><input type="radio" name="class" value="Class X">Class X</label>
+    <br><br>
+    <label><input type="radio" name="class" value="Class XII">Class XII</label>
+    <br><br>
+    <p>Select your subjects:</p>
+
+    <label>
+    <input type="checkbox" name="subject" value="HTML">
+    HTML
+    </label>
+    <br><br>
+
+    <label>
+    <input type="checkbox" name="subject" value="CSS">
+    CSS
+    </label>
+    <br><br>
+    <label>
+    <input type="checkbox" name="subject" value="JavaScript">
+    JavaScript
+    </label>
+    <br><br>
+
+    <label for="feedback">Feedback:</label>
+    <textarea name="feedback" id="feedback" rows="5" cols="30" placeholder="Please add feedback"></textarea>
+    <br>
+    <label for="city">Select City:</label>
+
+    <br><br>
+
+    <select name="city" id="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Bangalore">Bangalore</option>
+    </select>
+    <br><br>
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_gYv5fl9Dbs?si=T_pifUgsuN4ttBsA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <figure>
+    <img src="C:\Users\padma\OneDrive\Desktop\week13\computer.jpg"
+        alt="Computer"
+        width="300">
+<figcaption>
+Figure 1: A Computer System
+</figcaption>
+</figure>
+    <details>
+    <summary>What is HTML?</summary>
+    <p>
+    HTML is a markup language
+    used to structure webpages.
+    </p>
+    </details>
+    <label for="marks">
+    Student Performance:
+    </label>
+    <meter id="marks"
+    value="85"
+    min="0"
+    max="100">
+    </meter>
+    <p>
+        Examination Date:
+        <time datetime="2026-12-15">
+        15 December 2026
+        </time>
+    </p>
+
+
+</body>
+</html>
